@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26319" started-at="2018-05-06T15:49:59Z" finished-at="2018-05-06T15:50:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26319" started-at="2018-05-06T15:49:59Z" finished-at="2018-05-06T15:50:25Z">
+      <class name="com.assignment1.testCases.CreateCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="setUp" is-config="true" duration-ms="17814" started-at="2018-05-06T21:19:59Z" finished-at="2018-05-06T21:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateNewUserTitle()[pri:1, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="ValidateNewUserTitle" duration-ms="2526" started-at="2018-05-06T21:20:17Z" finished-at="2018-05-06T21:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNewUserTitle -->
+        <test-method status="PASS" signature="cancelUserCreation()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="cancelUserCreation" duration-ms="1708" started-at="2018-05-06T21:20:19Z" description="Cancel User Creation" depends-on-methods="com.assignment1.testCases.CreateCustomerTest.ValidateNewUserTitle" finished-at="2018-05-06T21:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelUserCreation -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="createUser" duration-ms="1889" started-at="2018-05-06T21:20:21Z" description="Create User" depends-on-methods="com.assignment1.testCases.CreateCustomerTest.ValidateNewUserTitle" finished-at="2018-05-06T21:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="readCustomerDetails()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="readCustomerDetails" duration-ms="83" started-at="2018-05-06T21:20:23Z" description="Read Customer Details" depends-on-methods="com.assignment1.testCases.CreateCustomerTest.createUser" finished-at="2018-05-06T21:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readCustomerDetails -->
+        <test-method status="PASS" signature="editCustomerDetails()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="editCustomerDetails" duration-ms="638" started-at="2018-05-06T21:20:23Z" description="Edit Customer Details" depends-on-methods="com.assignment1.testCases.CreateCustomerTest.readCustomerDetails" finished-at="2018-05-06T21:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomerDetails -->
+        <test-method status="PASS" signature="cancelEdit()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="cancelEdit" duration-ms="971" started-at="2018-05-06T21:20:24Z" description="Edit Customer Details" depends-on-methods="com.assignment1.testCases.CreateCustomerTest.editCustomerDetails" finished-at="2018-05-06T21:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelEdit -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assignment1.testCases.CreateCustomerTest@193948d]" name="tearDown" is-config="true" duration-ms="658" started-at="2018-05-06T21:20:24Z" finished-at="2018-05-06T21:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assignment1.testCases.CreateCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

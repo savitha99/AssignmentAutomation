@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Amazon Customer suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.assignment1.testCases.CreaterCustomerTest">
+        <methods>
+          <include name="ValidateNewUserTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="readCustomerDetails"/>
+          <include name="editCustomerDetails"/>
+          <include name="cancelEdit"/>
+          <include name="createUser"/>
+        </methods>
+      </class> <!-- com.assignment1.testCases.CreaterCustomerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Amazon Customer suite] -->

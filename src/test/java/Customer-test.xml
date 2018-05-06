@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Amazon Customer suite" 
+	thread-count="2">
+  <test name="Test">
+    <classes>
+      <class name="com.assignment1.testCases.CustomerFilterTest"/>
+      <class name="com.assignment1.testCases.CreateCustomerTest"/>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
